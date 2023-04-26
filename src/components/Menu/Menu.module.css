@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: #943838;
+  border-bottom: 1px solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navigation {
+  text-decoration: none;
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.navigation:global(.active) {
+  font-weight: 800;
+}
